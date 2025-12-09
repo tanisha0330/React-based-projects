@@ -1,3 +1,7 @@
+import Greetings2 from "./components/classComponents/Greetings2";
+import Greetings from "./components/functionComponents/Greetings";
+
+
 
 
 function App() {
@@ -5,11 +9,8 @@ function App() {
   return (
  
  <div>
-  <h1 > React and Vite | tanisha
- </h1>
- <button>
-  yeah ! got it  </button>
-
+  <Greetings name="Jhon" />
+  <Greetings2 name = "julia" />
  </div>
   );
 }
